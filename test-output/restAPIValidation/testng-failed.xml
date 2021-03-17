@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restAPIValidation]">
+  <test thread-count="5" name="serviceTests(failed)">
+    <classes>
+      <class name="test.Test.StoresServiceAPIValidationTest">
+        <methods>
+          <include name="testJSONObject"/>
+        </methods>
+      </class> <!-- test.Test.StoresServiceAPIValidationTest -->
+    </classes>
+  </test> <!-- serviceTests(failed) -->
+</suite> <!-- Failed suite [restAPIValidation] -->
